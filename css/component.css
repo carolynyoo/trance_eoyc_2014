@@ -142,10 +142,10 @@
 	outline: none;
 }
 
-.og-details a::before {
+.og-details a::after {
 	content: '\2192';
 	display: inline-block;
-	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .og-details a:hover {
