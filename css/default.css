@@ -65,8 +65,9 @@ a {
 	font-size: 34px;
 	line-height: 38px;
 	margin: 0 auto;
-	font-weight: 700;
+	font-weight: 400;
 	color: #333;
+  text-transform: uppercase;
 }
 
 .container > header h3 {

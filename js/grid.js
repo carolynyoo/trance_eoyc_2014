@@ -383,10 +383,12 @@ var Grid = (function() {
 					href : $itemEl.attr( 'href' ),
 					largesrc : $itemEl.data( 'largesrc' ),
 					title : $itemEl.data( 'title' ),
+					sub : $itemEl.data( 'sub' ),
 					description : $itemEl.data( 'description' )
 				};
 
 			this.$title.html( eldata.title );
+			this.$sub.html( eldata.sub );
 			this.$description.html( eldata.description );
 			this.$href.attr( 'href', eldata.href );
 
