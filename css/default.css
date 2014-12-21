@@ -49,7 +49,7 @@ a {
 }
 
 .container > header {
-	width: 90%;
+	width: 80%;
 	max-width: 1240px;
 	margin: 0 auto;
 	position: relative;
@@ -77,6 +77,25 @@ a {
   margin: 0 auto;
   font-weight: 300;
   color: #333;
+}
+
+.container > header a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border: 3px solid #333;
+  display: inline-block;
+  margin: 30px 0 0;
+  outline: none;
+}
+
+.container > header a::after {
+  content: '\2192';
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .main > p {
